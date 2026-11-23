@@ -1,0 +1,46 @@
+============================================================
+          DSoundPro v1.0 — Tu Música Sin Límites
+============================================================
+
+¡Hola! Gracias por probar DSoundPro.
+Esta es una aplicación 100% portable: NO necesita instalar Python,
+FFmpeg ni ningún programa adicional.
+
+CÓMO USARLO EN TU ORDENADOR (WINDOWS)
+------------------------------------------------------------
+1. Extrae esta carpeta completa (o copia DSoundPro.exe en una
+   carpeta propia, por ejemplo en tu Escritorio o Documentos).
+2. Haz doble clic en "DSoundPro.exe".
+3. Si Windows SmartScreen muestra "Windows protegió su PC"
+   (es normal en apps nuevas sin firma comercial):
+   -> Pulsa "Más información" y luego "Ejecutar de todas formas".
+4. Se abrirá una ventana negra pequeña (el servidor local) y en
+   2 segundos se abrirá la app de DSoundPro automáticamente.
+   * Mantén la ventana negra abierta mientras escuchas música.
+   * Cuando quieras cerrar DSoundPro, simplemente cierra esa ventana.
+
+CÓMO USARLO EN TU CELULAR (ANDROID / IPHONE)
+------------------------------------------------------------
+1. Con DSoundPro abierto en el ordenador, pulsa el botón
+   "Conectar Celular (QR)" dentro de la app.
+2. Escanea el código QR con la cámara de tu teléfono (conectado
+   al mismo Wi-Fi).
+3. Opcional: pulsa "Instalar aplicación" (Android) o
+   "Añadir a pantalla de inicio" (iPhone) para tenerlo como app.
+
+DESCARGAS MP3 PARA OTROS REPRODUCTORES
+------------------------------------------------------------
+- Todas las canciones que descargues se guardan en formato MP3/M4A
+  estándar con portada y metadatos en la carpeta "downloads/"
+  junto a DSoundPro.exe.
+- Puedes copiarlas a un USB, reproducirlas en VLC, tu auto o tu
+  celular sin internet y sin restricciones.
+
+VERIFICACIÓN DE SEGURIDAD (SHA-256)
+------------------------------------------------------------
+Para confirmar que el archivo no fue modificado en el envío,
+puedes verificar su huella SHA-256 en PowerShell con:
+    Get-FileHash DSoundPro.exe -Algorithm SHA256
+
+SHA-256 esperado de DSoundPro.exe:
+cb9a8b35482911feb9b9d4e69356ec92225a6524ca063e4a9208fbdf44a24eb4

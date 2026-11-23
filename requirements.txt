@@ -1,0 +1,10 @@
+fastapi>=0.115.0
+uvicorn>=0.32.0
+python-multipart>=0.0.12
+yt-dlp>=2025.1.0
+mutagen>=1.47.0
+imageio-ffmpeg>=0.5.1
+httpx>=0.27.0
+qrcode>=8.0
+pillow>=11.0.0
+aiofiles>=24.1.0
